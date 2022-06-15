@@ -4,9 +4,12 @@ An Efficient 3D-model for the Micro-Scale Analysis of Geometrically Imperfect Fi
 The final code iteration or best attempt for three different approaches for the efficient microscale modelling of FRPs:
 
 - Carrera Unified Formulation (best attempt)
-  - CUFsqLagrange9GP.py : Lagrange model CUF solver
-  - inputquadLE.py : Input code for generating the YAML data file
-  - dataLE.yaml : Data file with mesh, geometry and material data
+  - CUFclean_TE_LinBeam.py : Taylor Expansion Model CUF solver
+  - inputdatTE.py : Input code for generating YAML data file for Taylor Expansion model
+  - dataTE.yaml : Data file with mesh, geometry, and material data for Taylor Expansion Model
+  - CUF_LE_9GP.py : Lagrange Expansion Model CUF solver
+  - inputquadLE.py : Input code for generating the YAML data file for Lagrange Expansion Model
+  - dataLE.yaml : Data file with mesh, geometry, and material data for Lagrange Expansion Model
   
 - Geometrically Exact IGA (best attempt)
   - SplineIGA_Halton.py : Complete code attempt for the Geom. Exact Isogeometric beam including Halton sampling and regression
